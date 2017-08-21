@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>iTunes Music Search</title>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+
+<body>
+  <div class="search-field">
+    <header>
+      <h1>Kind of Awesome Music Site ¯\_(ツ)_/¯ </h1>
+    </header>
+    
+    <section class="player">
+      <audio class="music-player" controls="controls" src="https://.../search?parameterkeyvalue&callback={name of JavaScript function in webpage}" type="audio/mpeg"></audio>
+    </section>
+    
+    <section class="search-request">
+      <form class="search-form">
+        <input type="search" id="newSearch" placeholder="Search for Artist" size="70"/>
+        <button type="button" id="submit" placeholder="Submit"/>
+      </form>
+    </section>
+    <section id="songResults" class="results"></section>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
